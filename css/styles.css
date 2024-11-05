@@ -154,3 +154,49 @@ footer {
 .more-info-link:hover {
     color: #0056b3; /* Color más oscuro al pasar el ratón */
 }
+
+.populares {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.popular {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    
+}
+
+.popular-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.popular h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    
+}
+
+body {
+    background: linear-gradient(135deg, #f0f8ff, #e0e7ff);
+    font-family: Arial, sans-serif;
+}
+
+footer .social-media img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.1);
+}
